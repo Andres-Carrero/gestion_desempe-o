@@ -1,0 +1,80 @@
+mat-form-field{
+    width: 40%;
+    margin-left: 50px;
+}
+
+mat-grid-list{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+mat-hint{
+    color: #940000;
+}
+
+.RegistroClass{
+  width: 100%;
+  height:100%;
+  display: flex;
+}
+
+.RegistroImg{
+  width: 90%;
+  background-color: #940000;
+  background-image: url("../../../../assets/img/Recurso\ 2.png");
+  background-size: 400px 100px;
+  background-repeat: no-repeat;
+  background-position:top
+}
+
+.RegistroArea{
+  width: 100%;
+}
+
+.column{
+  width: 75%;
+  margin-top: 280px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aggImg{
+    text-align: center;
+    border: 5px solid;
+    //padding: 50px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 300px;
+}
+
+.selectImg{
+    margin-left: -4%;
+    margin-top: 55%;
+    background-color: #940000;
+    border-radius: 70%;
+    padding: 15px;
+    border: 2px solid;
+
+}
+
+.buttonsForms{
+  align-items: center;
+  justify-content: right;
+  margin-left: 80%;
+}
+
+.botoninicia{
+  font-family: 'Courier New', Courier, monospace;
+  color: #940000;
+  border-radius: 80px;
+}
+
+h2{
+  text-align: right;
+}
+

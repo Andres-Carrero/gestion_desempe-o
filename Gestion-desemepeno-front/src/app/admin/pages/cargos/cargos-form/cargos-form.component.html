@@ -1,0 +1,29 @@
+<div class="content"><br>
+  <h1 style="text-align: center;">Nuevo Cargo</h1>
+
+<mat-grid-list cols="2" rowHeight="80px">
+   <mat-grid-tile [colspan]="1">
+      <mat-form-field appearance="outline">
+          <mat-label>Descripcion</mat-label>
+            <input matInput [(ngModel)]="description" autocomplete="off" type="text">
+      </mat-form-field>
+   </mat-grid-tile>
+  <mat-grid-tile [colspan]="1">
+     <mat-form-field appearance="outline">
+        <mat-label>Empresa</mat-label>
+          <mat-select [(ngModel)]="company_id" [value]="company_id" (selectionChange)="AddCompany()">
+            <div *ngFor="let options of listCompany">
+             <mat-option  [value]="options.id">{{options.businessName}}</mat-option>
+            </div>
+          </mat-select>
+      </mat-form-field>
+  </mat-grid-tile>
+</mat-grid-list>
+
+  <div class="right">
+    <button  mat-raised-button class="buttons" (click)="guardar()">
+        <span class="material-icons" style="margin-right: 10px;" >save</span> {{titleButton}}
+    </button>
+  </div>
+</div>
+

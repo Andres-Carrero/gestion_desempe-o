@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+
+mat-form-field{
+    width: 95%;
+    //max-height: 5px;
+}
+
+.buttons{
+    background-color: #ff5601;
+    color: #FFFFFF;
+}
+
+.aggImg{
+    text-align: center;
+    border: 2px solid #c70101;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.selectImg{
+    position: relative;
+    margin-left: -4%;
+    margin-top: 10%;
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid;   
+}
+
+.mat-form-field-label {color: #000000}
+.mat-form-field-label {color: #000000}
+.mat-form-field.mat-focused .mat-form-field-label {color: #000000}
+.mat-form-field-appearance-outline .mat-form-field-outline-thick {color: #000000}
+.mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {color: #000000}
+.mat-form-field-appearance-outline .mat-form-field-outline {color: #c70101}
+input::placeholder{color: #000000 !important}
+.inputs{background-color: transparent; color: #000000;}
+.mat-select-value {color: #000000}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
